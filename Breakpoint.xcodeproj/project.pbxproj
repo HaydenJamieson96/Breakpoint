@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		10CFD94E2004CECC0038905C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD94D2004CECC0038905C /* AppDelegate.swift */; };
-		10CFD9502004CECC0038905C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD94F2004CECC0038905C /* FirstViewController.swift */; };
-		10CFD9522004CECC0038905C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD9512004CECC0038905C /* SecondViewController.swift */; };
+		10CFD9502004CECC0038905C /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD94F2004CECC0038905C /* FeedVC.swift */; };
+		10CFD9522004CECC0038905C /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD9512004CECC0038905C /* GroupsVC.swift */; };
 		10CFD9552004CECC0038905C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CFD9532004CECC0038905C /* Main.storyboard */; };
 		10CFD9572004CECC0038905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CFD9562004CECC0038905C /* Assets.xcassets */; };
 		10CFD95A2004CECC0038905C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CFD9582004CECC0038905C /* LaunchScreen.storyboard */; };
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		10CFD94A2004CECC0038905C /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CFD94D2004CECC0038905C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10CFD94F2004CECC0038905C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		10CFD9512004CECC0038905C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		10CFD94F2004CECC0038905C /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		10CFD9512004CECC0038905C /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		10CFD9542004CECC0038905C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10CFD9562004CECC0038905C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10CFD9592004CECC0038905C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		10CFD9612004CF1B0038905C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				10CFD94F2004CECC0038905C /* FirstViewController.swift */,
-				10CFD9512004CECC0038905C /* SecondViewController.swift */,
+				10CFD94F2004CECC0038905C /* FeedVC.swift */,
+				10CFD9512004CECC0038905C /* GroupsVC.swift */,
 				10D500372004E19C0064B348 /* AuthVC.swift */,
 				10D500392004E1A70064B348 /* LoginVC.swift */,
 			);
@@ -289,11 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D500382004E19C0064B348 /* AuthVC.swift in Sources */,
-				10CFD9522004CECC0038905C /* SecondViewController.swift in Sources */,
+				10CFD9522004CECC0038905C /* GroupsVC.swift in Sources */,
 				10D5003A2004E1A70064B348 /* LoginVC.swift in Sources */,
 				10CFD94E2004CECC0038905C /* AppDelegate.swift in Sources */,
 				10D5003E2004E4260064B348 /* ShadowView.swift in Sources */,
-				10CFD9502004CECC0038905C /* FirstViewController.swift in Sources */,
+				10CFD9502004CECC0038905C /* FeedVC.swift in Sources */,
 				10D500402004E54D0064B348 /* AuthService.swift in Sources */,
 				10D5003C2004E20D0064B348 /* InsetTextField.swift in Sources */,
 				10D500362004D8E50064B348 /* DataService.swift in Sources */,
