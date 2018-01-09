@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10A66B91200506340015F8E5 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A66B90200506340015F8E5 /* MeVC.swift */; };
+		10A66B93200509CA0015F8E5 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A66B92200509CA0015F8E5 /* CreatePostVC.swift */; };
 		10CFD94E2004CECC0038905C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD94D2004CECC0038905C /* AppDelegate.swift */; };
 		10CFD9502004CECC0038905C /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD94F2004CECC0038905C /* FeedVC.swift */; };
 		10CFD9522004CECC0038905C /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CFD9512004CECC0038905C /* GroupsVC.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		10A66B90200506340015F8E5 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		10A66B92200509CA0015F8E5 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		10CFD94A2004CECC0038905C /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CFD94D2004CECC0038905C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10CFD94F2004CECC0038905C /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				10D500372004E19C0064B348 /* AuthVC.swift */,
 				10D500392004E1A70064B348 /* LoginVC.swift */,
 				10A66B90200506340015F8E5 /* MeVC.swift */,
+				10A66B92200509CA0015F8E5 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				10CFD94E2004CECC0038905C /* AppDelegate.swift in Sources */,
 				10D5003E2004E4260064B348 /* ShadowView.swift in Sources */,
 				10CFD9502004CECC0038905C /* FeedVC.swift in Sources */,
+				10A66B93200509CA0015F8E5 /* CreatePostVC.swift in Sources */,
 				10D500402004E54D0064B348 /* AuthService.swift in Sources */,
 				10D5003C2004E20D0064B348 /* InsetTextField.swift in Sources */,
 				10D500362004D8E50064B348 /* DataService.swift in Sources */,
