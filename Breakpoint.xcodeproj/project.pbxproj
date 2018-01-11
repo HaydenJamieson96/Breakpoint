@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1046624D2007DDAF002DDAF7 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046624C2007DDAF002DDAF7 /* CreateGroupsVC.swift */; };
 		10A66B91200506340015F8E5 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A66B90200506340015F8E5 /* MeVC.swift */; };
 		10A66B93200509CA0015F8E5 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A66B92200509CA0015F8E5 /* CreatePostVC.swift */; };
 		10A66B9520050C680015F8E5 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A66B9420050C680015F8E5 /* UIViewExt.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1046624C2007DDAF002DDAF7 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		10A66B90200506340015F8E5 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		10A66B92200509CA0015F8E5 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		10A66B9420050C680015F8E5 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				10D500392004E1A70064B348 /* LoginVC.swift */,
 				10A66B90200506340015F8E5 /* MeVC.swift */,
 				10A66B92200509CA0015F8E5 /* CreatePostVC.swift */,
+				1046624C2007DDAF002DDAF7 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				10CFD9522004CECC0038905C /* GroupsVC.swift in Sources */,
 				10D5003A2004E1A70064B348 /* LoginVC.swift in Sources */,
 				10CFD94E2004CECC0038905C /* AppDelegate.swift in Sources */,
+				1046624D2007DDAF002DDAF7 /* CreateGroupsVC.swift in Sources */,
 				10D5003E2004E4260064B348 /* ShadowView.swift in Sources */,
 				10CFD9502004CECC0038905C /* FeedVC.swift in Sources */,
 				10A66B93200509CA0015F8E5 /* CreatePostVC.swift in Sources */,
