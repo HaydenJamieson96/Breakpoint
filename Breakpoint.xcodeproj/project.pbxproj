@@ -11,6 +11,7 @@
 		10133AB82009018300FB085E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133AB72009018300FB085E /* Group.swift */; };
 		103505BA2009089B00B31FAF /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103505B92009089B00B31FAF /* GroupFeedCell.swift */; };
 		103505BC2009090B00B31FAF /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103505BB2009090B00B31FAF /* GroupFeedVC.swift */; };
+		103505BE2009184700B31FAF /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103505BD2009184700B31FAF /* UIViewControllerExt.swift */; };
 		1046624D2007DDAF002DDAF7 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046624C2007DDAF002DDAF7 /* CreateGroupsVC.swift */; };
 		1046624F2007E109002DDAF7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046624E2007E109002DDAF7 /* UserCell.swift */; };
 		10A66B91200506340015F8E5 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A66B90200506340015F8E5 /* MeVC.swift */; };
@@ -39,6 +40,7 @@
 		10133AB72009018300FB085E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		103505B92009089B00B31FAF /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		103505BB2009090B00B31FAF /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		103505BD2009184700B31FAF /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		1046624C2007DDAF002DDAF7 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		1046624E2007E109002DDAF7 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		10A66B90200506340015F8E5 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				10A66B9420050C680015F8E5 /* UIViewExt.swift */,
+				103505BD2009184700B31FAF /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				10A66B91200506340015F8E5 /* MeVC.swift in Sources */,
 				10133AB62008FE0E00FB085E /* GroupCell.swift in Sources */,
 				10D500382004E19C0064B348 /* AuthVC.swift in Sources */,
+				103505BE2009184700B31FAF /* UIViewControllerExt.swift in Sources */,
 				10CFD9522004CECC0038905C /* GroupsVC.swift in Sources */,
 				103505BC2009090B00B31FAF /* GroupFeedVC.swift in Sources */,
 				103505BA2009089B00B31FAF /* GroupFeedCell.swift in Sources */,
